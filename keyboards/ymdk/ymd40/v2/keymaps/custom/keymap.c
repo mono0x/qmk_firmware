@@ -24,7 +24,7 @@ enum layer_names {
 };
 
 enum custom_keycodes {
-    IMEON = 0x8000 /* SAFE_RANGE */,
+    IMEON = 0x8000 /* Use a fixed value instead of SAFE_RANGE to refer custom keycodes from VIA */,
     IMEOFF,
 };
 
